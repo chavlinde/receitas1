@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --preto: #000000;
+    --verdinho: #3d9e76;
+    --amarelo-claro:#FFF2AF;
+    --rosa-claro:#eda5ff;
+    --verde: #99BC85;
+    --verde-claro: #b5f7c7;
+    --branco: #FFFFFF;
+    --marron-claro: #FAF1E6;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--verde-claro);
+    color: var(--preto);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex; 
+    width: 100%;
+    background-color: var(--verdinho);
+    padding: 1rem;
+    justify-content: center;
+}
